@@ -1,5 +1,5 @@
 # Predicting Hazardous Near-Earth Objects (NEOs)
-
+   ![Project cover](proj-nasa-cover.png)
 A machine-learning project that classifies whether a near-Earth object is **potentially hazardous**, based on its brightness, size, speed and miss distance.
 
 ## Problem
