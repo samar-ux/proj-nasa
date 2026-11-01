@@ -31,15 +31,12 @@ Space agencies track thousands of asteroids and comets that pass close to Earth.
 
 ## Results
 
-> Fill this table with the numbers printed by the notebook after you run it.
-
 | Model | Precision | Recall | F1 | ROC-AUC |
 |---|---|---|---|---|
-| Logistic Regression | | | | |
-| Random Forest | | | | |
+| Logistic Regression | 0.311 | 0.878 | 0.460 | 0.838 |
+| Random Forest | 0.637 | 0.704 | 0.669 | 0.949 |
 
-**Key takeaways:** _(2 to 3 sentences: best model, most important features, one limitation.)_
-
+**Key takeaways:** Random Forest is the best overall model (F1 = 0.669, ROC-AUC = 0.949), clearly outperforming the Logistic Regression baseline (F1 = 0.460, ROC-AUC = 0.838). Logistic Regression catches more hazardous objects (recall 0.878) but produces many false alarms (precision 0.311). Results come from a single train/test split, so cross-validation and tuning are the next steps.
 ## How to run
 
 ```bash
