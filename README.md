@@ -48,9 +48,21 @@ cd proj-nasa
 pip install -r requirements.txt
 ```
 
-1. Download the dataset from the Kaggle link above and place the file in the project folder.
-2. If the file name differs, update `DATA_PATH` in the first code cell.
-3. Open `hazardous_neo_prediction.ipynb` and run all cells.
+The dataset file is already included in this repository, so no extra download is needed.
+
+1. Open `hazardous_neo_prediction.ipynb` (Jupyter Notebook or JupyterLab).
+2. Run all cells from top to bottom.
+3. To use a different copy of the data (for example the original Kaggle CSV), change `DATA_PATH` in the first code cell.
+
+## Project structure
+
+```
+proj-nasa/
+├── hazardous_neo_prediction.ipynb   # Full analysis and modelling notebook
+├── nearest-earth-objects_1910-2024_-Copy-Copy-1_Worksheet_.xlsx   # Dataset
+├── requirements.txt                 # Python dependencies
+└── README.md
+```
 
 ## Tech stack
 
